@@ -1,5 +1,9 @@
 # Changelog
 
+## Meestic 1.3
+
+- Rename MeesticGui to MeesticTray
+
 ## Meestic 1.2
 
 - Accept 1462:1562 VID:PID device pair
