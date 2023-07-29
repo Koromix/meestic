@@ -1,5 +1,9 @@
 # Changelog
 
+## Meestic 1.2
+
+- Accept 1462:1562 VID:PID device pair
+
 ## Meestic 1.1
 
 - Provide MSI installer for Windows
