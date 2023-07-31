@@ -1,5 +1,14 @@
 # Changelog
 
+## Meestic 1.4
+
+- Show errors in message boxes
+- Drop use of event logs
+- Improve example of INI profile file
+- Build with static Visual Studio runtime
+- Include README in Windows packages
+- Provide ZIP version for Windows
+
 ## Meestic 1.3
 
 - Rename MeesticGui to MeesticTray
