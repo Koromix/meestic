@@ -11,6 +11,37 @@ Use the following links for more information:
 - Documentation: https://koromix.dev/meestic
 - Source code: https://github.com/Koromix/rygel/ (see below for an explanation)
 
+# Install
+
+## Windows
+
+Download ready-to-use binaries from the release section of the [dedicated repository](https://github.com/Koromix/meestic/releases).
+
+## macOS
+
+Download ready-to-use binaries from the release section of the [dedicated repository](https://github.com/Koromix/meestic/releases).
+
+## Linux
+
+A signed Debian repository is provided, and should work with Debian 11 and Debian derivatives (such as Ubuntu).
+
+Execute the following commands (as root) to add the repository to your system:
+
+```sh
+mkdir -p -m0755 /etc/apt/keyrings
+curl https://download.koromix.dev/debian/koromix-archive-keyring.gpg -o /etc/apt/keyrings/koromix-archive-keyring.gpg
+echo "deb [signed-by=/etc/apt/keyrings/koromix-archive-keyring.gpg] https://download.koromix.dev/debian stable main" > /etc/apt/sources.list.d/koromix.dev-stable.list
+```
+
+Once this is done, refresh the repository cache and install the package:
+
+```sh
+apt update
+apt install meestic
+```
+
+For other distributions, you can [build the code from source](https://koromix.dev/meestic#build_from_source) as documented on the website.
+
 # Source code
 
 This repository does not contain the code of Meestic but only exists as a front. For pratical reasons, I've started using a single repository for all my projects in 2018 because it is easier to manage.
@@ -90,37 +121,3 @@ Mode = Disabled
 # Colors = list of Colors (only one for Static, 1 to 7 for Breathe or Transition), use name or CSS-like hexadecimal
 # ManualOnly = Yes or No (if Yes, the option must be used from the context menu and won't be used when cycling modes with the function keys)
 ```
-
-# Build
-
-## Windows
-
-In order to build Meestic on Windows, clone the repository and run these commands from the root directory in a *Visual Studio command prompt* (x64 or x86, as you prefer):
-
-```sh
-bootstrap.bat
-felix -pFast meestic
-```
-
-After that, the binary will be available in the `bin/Fast` directory.
-
-## Linux
-
-In order to build Meestic on Linux, clone the repository and run these commands from the root directory:
-
-```sh
-# Install required dependencies on Debian or Ubuntu:
-sudo apt install git build-essential libudev-dev
-
-# Build the meestic binary:
-./bootstrap.sh
-./felix -pFast meestic
-```
-
-After that, the binary will be available in the `bin/Fast` directory.
-
-# License
-
-This program is free software: you can redistribute it and/or modify it under the terms of the **GNU Affero General Public License** as published by the Free Software Foundation, either **version 3 of the License**, or (at your option) any later version.
-
-Find more information here: https://www.gnu.org/licenses/
