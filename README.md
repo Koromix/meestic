@@ -10,7 +10,12 @@ Use the following links for more information:
 
 - Documentation: https://koromix.dev/meestic
 - Changelog: https://github.com/Koromix/rygel/blob/master/src/meestic/CHANGELOG.md
-- Source code: https://github.com/Koromix/rygel/ (see below for an explanation)
+
+Up-to-date binaries are available here:
+
+- [Windows](https://download.koromix.dev/windows/)
+- [Linux (Debian)](https://koromix.dev/meestic#linux-debian)
+- [Linux (RPM)](https://koromix.dev/meestic#linux-rpm)
 
 # Source code
 
