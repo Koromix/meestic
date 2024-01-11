@@ -9,6 +9,7 @@ It was made by looking at the HID packets sent by the Windows tool with Wireshar
 Use the following links for more information:
 
 - Documentation: https://koromix.dev/meestic
+- Changelog: https://github.com/Koromix/rygel/blob/master/src/meestic/CHANGELOG.md
 - Source code: https://github.com/Koromix/rygel/ (see below for an explanation)
 
 # Source code
