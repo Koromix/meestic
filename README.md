@@ -11,7 +11,7 @@ It was made by looking at the HID packets sent by the Windows tool with Wireshar
 Use the following links for more information:
 
 - Documentation: https://koromix.dev/meestic
-- Changelog: https://github.com/Koromix/rygel/blob/master/src/meestic/CHANGELOG.md
+- Changelog: https://codeberg.org/Koromix/rygel/raw/branch/master/src/meestic/CHANGELOG.md
 
 Up-to-date binaries are available here:
 
@@ -23,7 +23,7 @@ Up-to-date binaries are available here:
 
 This repository does not contain the code of Meestic but only exists as a front. For pratical reasons, I've started using a single repository for all my projects in 2018 because it is easier to manage.
 
-The source code is available here: https://github.com/Koromix/rygel/ (in the *src/meestic* subdirectory).
+The source code is available here: https://codeberg.org/Koromix/rygel/ (in the *src/meestic* subdirectory).
 
 Monorepositories have two killer features for me:
 
